@@ -3,7 +3,7 @@
   height: 9.375vh;
   max-width: 1366px;
   display: grid;
-  grid-template-columns: 3% 3% 2% 37% 45%;
+  grid-template-columns: 3% 3% 2% 36% 45%;
   grid-template-rows: 22.2% 55.6% 22.2%;
 }
 
@@ -35,7 +35,30 @@
   grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 3;
-  border: none;
+  padding: 1.6% 2.8% 1.6% 2.8%;
   border-radius: 0.25rem;
+  background-color: #fff;
 }
-    
+
+input::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  letter-spacing: 0.01em;
+  
+  /* Gray Dark */
+  
+  color: #808080;
+}
+
+.inputSearchForm {
+  border: none;
+  margin-left: 2%;
+  align-items: center;
+}
+.inputSearchForm:focus {
+  border: none;
+}

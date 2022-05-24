@@ -1,3 +1,4 @@
+import Body from '../body/body';
 import Header from '../header/header';
 import './app.css';
 
@@ -6,7 +7,7 @@ function App() {
 
     <div className="app">
       <Header />
-      
+      <Body />
     </div>
   );
 }
